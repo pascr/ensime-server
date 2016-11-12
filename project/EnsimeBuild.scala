@@ -158,7 +158,7 @@ object EnsimeBuild {
           case "2.10" => "org.scala-refactoring" % "org.scala-refactoring.library_2.10.6" % "0.10.0"
           case "2.11" => "org.scala-refactoring" % "org.scala-refactoring.library_2.11.8" % "0.10.0"
         },
-        "commons-lang" % "commons-lang" % "2.6",
+        //"commons-lang" % "commons-lang" % "2.6",
         "com.googlecode.java-diff-utils" % "diffutils" % "1.3.0",
         "org.scala-debugger" %% "scala-debugger-api" % "1.1.0-M2"
       ) ++ Sensible.testLibs("it,test") ++ Sensible.shapeless(scalaVersion.value)
